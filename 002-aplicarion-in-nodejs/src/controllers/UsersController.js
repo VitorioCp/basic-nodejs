@@ -88,7 +88,7 @@ class UsersController {
     }
 
     
-    return response.status(200);
+    return response.status(200).json(user);
   }
 }
 module.exports = UsersController; 
